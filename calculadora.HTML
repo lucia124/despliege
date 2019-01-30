@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<form id="formulario"name="formulario" action="calculadora.php" method="POST" >
+<p>
+<label for="numero1">Primer numero</label>
+<input type="text" name="nume" maxlength="20" size="20"/>
+</p><p>
+<label for="numero2">Segundo numero</label>
+<input type="text" name="numero"  maxlength="20" size="20"/>
+</p>
+<label for="operacion"> operacion</label>
+ <select name="operacion">
+<option  value="+"> suma>
+<option value ="-"> resta</option>
+<option selected value="*"> multiplicacion</option>
+<option value="/"> division</option>
+<option value="%"> resto</option>
+
+ </select>
+<input type ="submit" name ="enviar" value="enviar datos"/>
+
+<input type = "reset" name= "limpiar" value="limpiar datos" onclick="has pulsado limpiar"/>
+
+</form>
+
+</BODY>
+</HTML>
